@@ -5,7 +5,7 @@ tasks:
       dotnet dev-certs https 
       dotnet restore
       dotnet build
-      dotnet run
+#     dotnet run
 ports:
   - port: 7283
     onOpen: open-preview
